@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "musics",
+  "info": {
+    "singularName": "music",
+    "pluralName": "musics",
+    "displayName": "Music",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "lien_youtube": {
+      "type": "string"
+    },
+    "Favoris": {
+      "type": "boolean"
+    },
+    "dete_de_sortie": {
+      "type": "date"
+    },
+    "couleur": {
+      "type": "string"
+    },
+    "chanteur": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::chanteur.chanteur"
+    }
+  }
+}
