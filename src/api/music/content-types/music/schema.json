@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Titre": {
+    "titre": {
       "type": "string"
     },
     "lien_youtube": {
       "type": "string"
     },
-    "Favoris": {
+    "favories": {
       "type": "boolean"
     },
     "dete_de_sortie": {

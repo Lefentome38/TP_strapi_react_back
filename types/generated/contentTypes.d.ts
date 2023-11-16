@@ -722,9 +722,9 @@ export interface ApiMusicMusic extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    Titre: Attribute.String;
+    titre: Attribute.String;
     lien_youtube: Attribute.String;
-    Favoris: Attribute.Boolean;
+    favories: Attribute.Boolean;
     dete_de_sortie: Attribute.Date;
     couleur: Attribute.String;
     chanteur: Attribute.Relation<
